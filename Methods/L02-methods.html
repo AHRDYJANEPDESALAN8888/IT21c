@@ -20,7 +20,7 @@
 
         // Class definition
         class Person {
-            constructor(name, age, occupation) {
+            constructor(name, age, occupation, hobbies) {
                 this.name = name;
                 this.age = age;
                 this.occupation = occupation;
@@ -41,7 +41,7 @@
                 personElement.innerHTML = `
                     <strong>Name:</strong> ${this.name}<br>
                     <strong>Age:</strong> ${this.age}<br>
-                    <strong>Occupation:</strong> ${this.occupation}
+                    <strong>Occupation:</strong> ${this.occupation}<br>
                     <strong>Hobbies:</strong> ${this.hobbies}
                 `;
             }
